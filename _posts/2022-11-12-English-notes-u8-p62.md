@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 九上英语笔记U8 2b
-categories: English notes
+categories: English-notes
 description: P62 Stonehenge
 keywords: 英语笔记, 九上
 ---
