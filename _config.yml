@@ -155,7 +155,7 @@ utterances:
     repo: mzlogin/blog-comments
 # beaudar 配置参考：https://beaudar.lipk.org/
 beaudar:
-    repo: ZYB14/blog-comments
+    repo: ZYB14/beaudar
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
     repo: mzlogin/blog-comments
