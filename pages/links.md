@@ -18,12 +18,6 @@ permalink: /links/
 {% endfor %}
 </ul>
 
-> 友情链接
+> 本站状态监测
 
-<ul>
-{% for link in site.data.links %}
-  {% if link.src == 'www' %}
-  <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f1c60ea7-2b5c-45c5-9ed1-fbbade5e6ff3/deploy-status)](https://app.netlify.com/sites/zyb14/deploys)
