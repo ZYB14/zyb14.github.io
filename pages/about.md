@@ -20,9 +20,3 @@ How lucky to meet you!
 {% endfor %}
 {% if site.url contains 'zyb14.netlify.app' %}
 <li>
-<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/qrcode.jpg" alt="ZYB14" />
-</li>
-{% endif %}
-</ul>
-
