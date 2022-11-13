@@ -19,5 +19,4 @@ How lucky to meet you!
 <li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
 {% endfor %}
 {% if site.url contains 'zyb14.netlify.app' %}
-<li>
 {% endif %}
