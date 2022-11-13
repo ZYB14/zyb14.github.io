@@ -15,5 +15,3 @@ permalink: /links/
   {% if link.src == 'life' %}
   <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
   {% endif %}
-{% endfor %}
-</ul>
