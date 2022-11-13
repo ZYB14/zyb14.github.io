@@ -20,3 +20,8 @@ How lucky to meet you!
 {% endfor %}
 {% if site.url contains 'zyb14.netlify.app' %}
 <li>
+微信公众号：<br />
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/qrcode.jpg" alt="闷骚的程序员" />
+</li>
+{% endif %}
+</ul>
