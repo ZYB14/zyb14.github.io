@@ -21,4 +21,3 @@ How lucky to meet you!
 {% if site.url contains 'zyb14.netlify.app' %}
 <li>
 {% endif %}
-</ul>
