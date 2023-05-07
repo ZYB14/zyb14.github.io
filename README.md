@@ -1,4 +1,4 @@
-# 轻风科技首席执行官的一些句话：
+### 轻风科技首席执行官的一些句话：
 因为轻风实在是支付不起高昂的带宽费，所以将官网托管至github，也是为了稳定性。
 * 轻风科技永久网址：https://qingfengnb.cn
 * 源码为开源，可直接部署至自己存储库！
@@ -137,8 +137,8 @@ make clean all
 * [Hitokoto 一言](https://hitokoto.cn/)
 
 <a title="SSL" target="_blank" href="https://myssl.com/seal/detail?domain=blog.imsyy.top"><img src="https://img.shields.io/badge/MySSL-安全认证-brightgreen"></a>&nbsp;<a title="CDN" target="_blank" href="https://cdnjs.com/"><img src="https://img.shields.io/badge/CDN-Cloudflare-blue"></a>&nbsp;<a title="Copyright" target="_blank" href="https://imsyy.top/"><img src="https://img.shields.io/badge/Copyright%20%C2%A9%202020--2023-%E7%84%A1%E5%90%8D-red"></a>
-English | [Chinese](./README.md)
-#English-REAME
+
+### English-REAME
 <p>
 <strong><h2>無名の主页</h2></strong>
 Simple little homepage, had enough of the original one and made a new one
