@@ -1,21 +1,18 @@
-# Security Policy
+# 兼容性
 
-## Supported Versions
+## 技术支持：轻风科技
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+使用不兼容浏览器会导致出现不正常页面
 
-| Version | Supported          |
+| 浏览器 | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| IE   | :x: |
+| EDGE   | :white_check_mark:                |
+| Safair   | :white_check_mark: |
+| 谷歌浏览器   | :white_check_mark:                |
 
-## Reporting a Vulnerability
+## 不在 IE6、IE7、IE8、IE9、IE10、IE11
 
-Use this section to tell people how to report a vulnerability.
+为了兼容这个曾经的浏览器霸主，网页设计人员需要做大量的代码工作。对于普通用户而言，低版本 IE 更是一个岌岌可危的安全隐患，在 Windows 历史上几次大的木马病毒事件都是利用 IE 漏洞进行传播。所以，请和我们一起抵制 IE 的过期版本！
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+
