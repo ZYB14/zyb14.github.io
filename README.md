@@ -36,7 +36,9 @@
 
 
 ### 轻风科技首席执行官的一些句话：
-> 因为轻风实在是支付不起高昂的带宽费，所以将官网托管至github，也是为了稳定性。
+> 因为轻风实在是支付不起高昂的带宽费，所以将官网托管至github。
+> 网站空间由github提供
+> 网站CDN由cloudflare提供
 * 轻风科技永久网址：https://qingfengnb.cn
 * 源码为开源项目，可直接部署至自己存储库！
 * github开源地址：https://github.com/imsyy/home
