@@ -140,7 +140,10 @@
                                     <!--一言-->
                                     <div class="hitokoto cards" id="hitokoto">
                                         <!--切换音乐-->
-                                    
+                                    <div class="open-music fixed-top" id="open-music">
+                                            <i class="fa-solid fa-compact-disc"></i>
+                                            <span>&nbsp;打开音乐播放器</span>
+                                        </div>
                                         <!--切换音乐结束-->
                                         <div class="hitokoto-all">
                                             <div class="hitokoto-text"><span id="hitokoto_text">每一个人都应该明确自己的方向和位置</span>
@@ -150,10 +153,10 @@
                                         </div>
                                     </div>
                                     <!--音乐-->
-                                    <div class="music" id="music">
+                                     <div class="music" id="music">
                                         <div class="music-all">
                                             <div class="music-button">
-                                                
+                                                <div id="music-open">音乐列表</div>
                                                 <div id="music-close">回到一言</div>
                                             </div>
                                             <div class="music-control">
@@ -213,7 +216,7 @@
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a id="link-url-3" href="https://y.qq.com" target="_blank">
+                                        <a id="link-url-3" href="https://music.qingfengnb.cn" target="_blank">
                                             <div class="link-card cards">
                                                 <i id="link-icon-3" class="fa-solid fa-music"></i>
                                                 <span class="link-name" id="link-name-3">音乐</span>
@@ -295,8 +298,130 @@
                             </div>
                         </div>
                     </div>
+                    <div class="line">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <span class="line-text">功能区</span>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                    <!--网站链接-->
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://qm.qq.com/cgi-bin/qm/qr?k=IvC0DhBGvt4KW4x23ATpK4EnL4P86hUH&jump_from=webapi&authKey=5OecPKuQxjJ6+a80zc646kzWi3FmOhNaVaLgZpBq34Bdmrztd5YDthIXooSH+WZK" target="_blank">
+                                <div class="link-card cards">
+                                    <span class="link-name">加入轻风群聊</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col 2">
+                            <a href="https://up.qingfengnb.cn" target="_blank">
+                                <div class="link-card cards">
+                                    <span class="link-name">网站状态平台</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://demo.qingfengnb.cn" target="_blank">
+                                <div class="link-card cards">
+                                    <span class="link-name">二级域名分发网站</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 1.5rem;">
+                        <div class="col">
+                            <a href="https://github.com/qingfengwork/qingfengworking" target="_blank">
+                                <div class="link-card cards">
+                                    <span class="link-name">github项目地址</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col 2">
+                            <a href="https://music.qingfengnb.cn" target="_blank">
+                                <div class="link-card cards">
+                                    <span class="link-name">前往music网站</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a id="openmore">
+                                <div class="link-card cards">
+                                    <span class="link-name">关于本站</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--更多页面-->
+                <div class="box" id="box" style="display: none">
+                    <div class="box-wrapper">
+                        <!--关闭按钮-->
+                        <div class="closebox fixed-top" id="closemore">
+                            <i class="fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <!--左侧内容-->
+                        <div class="box-left">
+                            <div class="img-title">
+                                <span class="img-title-big" id="logo-title-other">qingfeng</span>
+                                <span class="img-text" id="logo-title-other-small">.cn</span><br />
+                                <span class="img-text">&nbsp;v&nbsp;魔改 v1.12</span>
+                                <a href="https://github.com/qingfengwork/qingfengworking" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                            <!--更多内容-->
+                            <P>· github仓库网站源码为魔改版本，建议使用官方原版！版本所有，违者必究!</p>
+							
+							<P>· 本魔改版并非恶意修改，仅个人需要！</p>
+							
+							<P>· 本站由轻风云计算提供计算服务</p>
+                                <!--更新日志-->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            更新日志（点击展开详细记录）
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <div class="upnote">
+                                                <span class="uptext">
+                                                    <i class="fa-solid fa-circle-plus"></i>&nbsp;添加魔改壁纸
+                                                </span>
+                                                <span class="uptext">
+                                                    <i class="fa-solid fa-circle-plus"></i>&nbsp;添加魔改字体
+                                                </span>
+                                                <span class="uptext">
+                                                    <i class="fa-solid fa-circle-plus"></i>&nbsp;重构魔改架构
+                                                </span>
+                                                <span class="uptext">
+                                                    <i class="fa-solid fa-screwdriver-wrench"></i>&nbsp;修复天气 API
+                                                </span>
+                                                <span class="uptext">
+                                                    <i class="fa-solid fa-screwdriver-wrench"></i>&nbsp;时光胶囊显示错误
+                                                </span>
+                                                <span class="uptext">
+                                                    <i class="fa-solid fa-screwdriver-wrench"></i>&nbsp;移动端动画及细节
+                                                </span>
+                                                <span class="uptext">
+                                                    <i class="fa-solid fa-screwdriver-wrench"></i>&nbsp;图标更换为 Font
+                                                    Awesome</span>
+                                                <span class="uptext">
+                                                    <i class="fa-solid fa-rotate-left"></i>
+                                                    <a href="old.html" style="color:#efefef">返回旧版站点</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					 </div>
+                        </div>
+                    </div>
                    </div>
-                   
                
                         
                        

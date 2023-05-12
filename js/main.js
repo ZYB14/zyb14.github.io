@@ -54,7 +54,10 @@ window.addEventListener('load', function () {
             message: 'hello!你好！'
         });
     }, 800);
-
+//延迟加载音乐播放器
+    let element = document.createElement("script");
+    element.src = "./js/music.js";
+    document.body.appendChild(element);
    
     if (Boolean(window.navigator.userAgent.match(/AppWebKit.*Mobile.*/))) {
         $('#g-pointer-2').css("display", "none");
@@ -65,6 +68,14 @@ window.addEventListener('load', function () {
 setTimeout(function () {
     $('#loading-text').html("加载也是需要时间的呀~应该不会太久~")
 }, 3000);
+
+
+ 
+
+
+
+
+
 
 // 新春灯笼 （ 需要时可取消注释 ）
 // new_element=document.createElement("link");
@@ -277,7 +288,7 @@ $('#switchmore').on('click', function () {
     } else {
         $('#container').attr('class', 'container');
         $("#change").html("Hello&nbsp;World&nbsp;!");
-        $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+        $("#change1").html("一个建立于21世纪的网站，存活于互联网的某个小角落");
     }
 });
 
