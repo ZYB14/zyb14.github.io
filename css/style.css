@@ -1,9 +1,4 @@
-LoadModule headers_module modules/mod_headers.so
-<FilesMatch "\.(ttf|otf|eot|woff)$">
-<IfModule mod_headers.c>
-Header set Access-Control-Allow-Origin "*"
-</IfModule>
-</FilesMatch>
+
 
 @charset "utf-8";
 
