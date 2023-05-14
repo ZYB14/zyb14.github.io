@@ -231,12 +231,12 @@ $("#social").mouseover(function () {
 });
 
 $("#github").mouseover(function () {
-    $("#link-text").html("去 Github 查看此项目");
+    $("#link-text").html("去 GitHub 查看此项目");
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
 });
 $("#qq").mouseover(function () {
-    $("#link-text").html("有问题？快来找我呀~");
+    $("#link-text").html("欢迎加入WindowsMiNi合作社~");
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
 });
@@ -364,14 +364,4 @@ $("#more").hover(function () {
 }, function () {
     $('#close').css("display", "none");
 })
-
-//屏蔽右键
-document.oncontextmenu = function () {
-    iziToast.show({
-        timeout: 2000,
-        icon: "fa-solid fa-circle-exclamation",
-        message: '啥？想右键？早禁了！啊？想复制？没门！'
-    });
-    return false;
-}
 
