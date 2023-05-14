@@ -1,4 +1,9 @@
-
+LoadModule headers_module modules/mod_headers.so
+<FilesMatch "\.(ttf|otf|eot|woff)$">
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+</IfModule>
+</FilesMatch>
 //弹窗样式
 iziToast.settings({
     timeout: 10000,
