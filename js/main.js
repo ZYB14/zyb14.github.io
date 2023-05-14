@@ -231,7 +231,7 @@ $("#social").mouseover(function () {
 });
 
 $("#github").mouseover(function () {
-    $("#link-text").html("去 GitHub 查看此项目");
+    $("#link-text").html("去 GitHub 查看我");
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
 });
