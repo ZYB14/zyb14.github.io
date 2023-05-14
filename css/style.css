@@ -11,12 +11,12 @@
 
 @font-face {
     font-family: "Pacifico-Regular";
-    src: url('../font/Pacifico-Regular.ttf') format('truetype');
+    src: url('https://os.winmini.eu.org/Pacifico-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "UnidreamLED";
-    src: url('../font/UnidreamLED.ttf') format('truetype');
+    src: url('https://os.winmini.eu.org/UnidreamLED.ttf') format('truetype');
 }
 
 /*全局样式*/
