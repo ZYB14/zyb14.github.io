@@ -66,7 +66,7 @@ window.addEventListener('load', function () {
 }, false)
 
 setTimeout(function () {
-    $('#loading-text').html("加载也是需要时间的呀~应该不会太久~")
+    $('#loading-text').html("首次加载会比较慢哦~耐心等待一下吧~")
 }, 3000);
 
 
